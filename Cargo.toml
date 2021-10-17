@@ -1,0 +1,17 @@
+[package]
+name = "srun_login"
+version = "0.1.0"
+authors = ["lookas <i@18kas.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.4", features = ["blocking"], default-features = false } # default-features = false: disable https support
+base64 = "0.13.0"
+md-5 = "0.9.1"
+hmac = "0.11.0"
+hex = "0.4.3"
+sha-1 = "0.9.8"
+regex = "1"
+urlencoding = "2.1.0"
