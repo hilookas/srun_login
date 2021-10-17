@@ -32,3 +32,9 @@ CARGO_TARGET_MIPSEL_UNKNOWN_LINUX_MUSL_LINKER=~/openwrt-toolchain-ramips-mt7621_
 
 # build result is placed at ~/srun_login/target/mipsel-unknown-linux-musl/release/srun_login
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2021, lookas
