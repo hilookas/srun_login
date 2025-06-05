@@ -1,5 +1,5 @@
-const CHAR_SET_DEFAULT: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-const CHAR_SET_ALT: &[u8] = b"LVoJPiCN2R8G90yg+hmFHuacZ1OWMnrsSTXkYpUq/3dlbfKwv6xztjI7DeBE45QA";
+const CHAR_SET_DEFAULT: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+const CHAR_SET_ALT: &[u8] = b"LVoJPiCN2R8G90yg+hmFHuacZ1OWMnrsSTXkYpUq/3dlbfKwv6xztjI7DeBE45QA=";
 
 fn transform(data: &Vec<u8>, char_set_from: &[u8], char_set_to: &[u8]) -> Vec<u8> {
   data.iter().map(
